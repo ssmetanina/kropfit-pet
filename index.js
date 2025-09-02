@@ -1,3 +1,14 @@
+// Выпадающее меню
+const headerBurgerButton = document.querySelector('.header-burger-button')
+const headerMenuList = document.querySelector('.header-menu-list')
+
+headerBurgerButton.addEventListener('click', () => {
+    headerMenuList.classList.toggle('show-header-menu-list')
+    headerBurgerButton.classList.toggle('clicked')
+})
+
+// Карта
+
 ymaps = window.ymaps;
 
 function init() {
@@ -34,6 +45,8 @@ function init() {
 
 ymaps.ready(init);
 
+// Слайдер
+
 function sliderPlugin(activeSlide = 0) {
     let slides = document.querySelectorAll('.slide')
 
@@ -54,4 +67,3 @@ function sliderPlugin(activeSlide = 0) {
 }
 
 sliderPlugin()
-
