@@ -1,3 +1,5 @@
+![Preview](./preview.png)
+
 # kropfit-pet — Kropp Fitness Landing
 
 Адаптивный лендинг фитнес-клуба, который я сверстала по найденному в интернете макету.  
